@@ -1,0 +1,187 @@
+@media (max-aspect-ratio: 1/1) {
+	#desktop{
+		display: none;
+	}	
+}
+
+@media (min-aspect-ratio: 1/1) {
+	:root {
+		--circle-offsets: 0vw;
+		--corner-offsets: -0.2vw;
+		--text-offsets: 1.8vw;
+	}
+	
+	.float-hover{
+		transition-timing-function: ease-in-out;
+		transition: 0.1s;
+		cursor: pointer;
+	}
+
+	.float-hover:hover{
+		letter-spacing: 0.22vw !important; 
+	}
+
+	body{
+		background-color: black;
+	}
+	body *{
+		font-family: 'Trueno Regular';
+		font-weight: normal;
+		color: white;
+	}
+	main{
+		overflow: clip;
+	}
+	#center-circle{
+		height: 9vw;
+		width: 9vw;
+		background-color: white;
+		border-radius: 50%;
+		display: block;
+		position: absolute;
+		left: calc(50% - 4.5vw);
+		top: calc(50% - 4.5vw);
+	}
+	#center-circle-2{
+		height: 14.5vw;
+		width: 14.5vw;
+		border: 1px white solid;
+		border-radius: 50%;
+		display: block;
+		position: absolute;
+		left: calc(50% - 7.25vw + var(--circle-offsets));
+		top: calc(50% - 7.25vw + var(--circle-offsets));
+	}
+	#center-circle-3{
+		height: 14.5vw;
+		width: 14.5vw;
+		border: 1px white solid;
+		border-radius: 50%;
+		display: block;
+		position: absolute;
+		left: calc(50% - 7.25vw - var(--circle-offsets));
+		top: calc(50% - 7.25vw - var(--circle-offsets));
+	}
+	
+	
+	#NASS{
+		position: absolute;
+		font-size: 6vw;
+		letter-spacing: 2.6vw;
+		width: 100%;
+		top: calc(50% - 27vw);
+		text-align: center;
+		
+	}
+	#title-logo{
+		position: absolute;
+		height: 0%;
+		width: 5.52vw;
+		left: calc(50% - 2.76vw);
+		top: calc(50% - 2.76vw);
+	}
+	#center-corner-left{
+		position: absolute;
+		height: 0%;
+		width: 5.5vw;
+		left: calc(50% - 13vw - var(--corner-offsets));
+		top: calc(50% - 15vw - var(--corner-offsets));
+	}
+	#center-corner-right{
+		position: absolute;
+		height: 0%;
+		width: 5vw;
+		left: calc(50% + 7.5vw + var(--corner-offsets));
+		top: calc(50% + 10vw + var(--corner-offsets));
+	}
+	#home-background{
+		position: absolute;
+		height: 0%;
+		width: 22vw;
+		left: calc(50% - 13vw);
+		top: calc(50% - 28vw);
+		z-index: -1;
+	}
+
+	#contact-us{
+		position: absolute;
+		left: calc(50% - 47vw + var(--text-offsets));
+		top: calc(50% - 2vw);
+		font-size: 1.45vw;
+		letter-spacing: 0.2vw;
+		
+	}
+
+	#join-us{
+		position: absolute;
+		left: calc(50% - 28vw + var(--text-offsets));
+		top: calc(50% - 2vw);
+		font-size: 1.45vw;
+		letter-spacing: 0.2vw;
+		
+	}
+
+	#mission-statement{
+		position: absolute;
+		left: calc(50% - 9vw);
+		top: calc(50% - -8vw - var(--text-offsets));
+		font-size: 1.45vw;
+		letter-spacing: 0.2vw;
+
+	}
+	#our-projects{
+		position: absolute;
+		left: calc(50% - -16vw - var(--text-offsets));
+		top: calc(50% - 2vw);
+		font-size: 1.45vw;
+		letter-spacing: 0.2vw;
+
+	}
+	#about-us{
+		position: absolute;
+		left: calc(50% - -36vw - var(--text-offsets));
+		top: calc(50% - 2vw);
+		font-size: 1.45vw;
+		letter-spacing: 0.2vw;
+
+	}
+	#nass{
+		position: absolute;
+		left: calc(50% - 12.8vw);
+		top: calc(50% - 24.5vw);
+		font-size: 1.22vw;
+		font-family: "Trueno UltraLight";
+	}
+	#line-1{
+		position: absolute;
+		width: 23vw;
+		height: 0;
+		left: calc(50% - 40vw);
+		top: calc(50% - 8vw);
+		border-bottom: 0.05vw solid white;
+	}
+	#line-2{
+		position: absolute;
+		width: 16vw;
+		height: 0;
+		left: calc(50% - 30vw);
+		top: calc(50% - -8vw);
+		border-bottom: 0.05vw solid white;
+	}
+	#line-3{
+		position: absolute;
+		width: 13vw;
+		height: 0;
+		left: calc(50% - -11vw);
+		top: calc(50% - 5vw);
+		border-bottom: 0.05vw solid white;
+	}
+	#line-4{
+		position: absolute;
+		width: 26vw;
+		height: 0;
+		left: calc(50% - -15vw);
+		top: calc(50% - -5vw);
+		border-bottom: 0.05vw solid white;
+	}
+}

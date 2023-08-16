@@ -1,0 +1,189 @@
+footer{
+	display: none;
+}
+
+svg{
+	width: 100%;
+	height: auto;;
+}
+
+.vertical-svg{
+	width: auto; 
+	height: 100%;
+}
+
+.hide {
+	display: none;
+}
+
+a{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
+@media (min-aspect-ratio: 1/1) {
+	#mobile{
+		display: none;
+	}	
+}
+
+@media (max-aspect-ratio: 1/1) {
+	main{
+		bottom:0;
+		position: absolute;
+	}
+	.float-hover{
+		transition-timing-function: ease-in-out;
+		transition: 0.1s;
+		cursor: pointer;
+	}
+
+	.float-hover:hover{
+		letter-spacing: 1.1vw !important; 
+	}
+	.vl {
+	  border-left: 1px solid white;
+	  height: 500px;
+	}
+
+	body{
+		background-color: black;
+	}
+	body *{
+		font-family: 'Trueno Regular';
+		font-weight: normal;
+		color: white;
+	}
+
+	#menu{
+		position: absolute;
+		bottom: 0;
+	}
+
+	#menu-side-1{
+		position: absolute;
+		height: 100%;
+		bottom: 0;
+		padding-bottom: 238vw;
+		left: -5vw;
+		z-index: -1;
+		width: 13vw;
+	}
+
+	#menu-side-2{
+		position: absolute;
+		height: 100%;
+		bottom: 0;
+		padding-bottom: 180vw;
+		left: 1.5vw;
+		z-index: -1;
+		width: 0.1vw;
+	}
+
+	#menu-side-3{
+		position: absolute;
+		height: 100%;
+		bottom: 0;
+		padding-bottom: 172.5vw;
+		left: -0.5vw;
+		z-index: -1;
+		width: 0.1vw;
+	}
+
+	#menu h2 {
+		position: absolute;
+		white-space: nowrap;
+		font-family: "Trueno Light";
+		letter-spacing: 1vw;
+		margin-left: 8vw;
+		font-size: 6vw;
+	}
+
+	#contact-us{
+		-webkit-animation: slide-in-left 0.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.8s both;
+		animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.8s both;
+		bottom: 80vh;
+	}
+
+	#join-us{
+		-webkit-animation: slide-in-left 0.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s both;
+		animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s both;
+		bottom: 68vh;
+	}
+
+	#our-projects{
+		-webkit-animation: slide-in-left 0.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1.2s both;
+		animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1.2s both;
+		bottom: 56vh;
+	}
+
+	#about-us{
+		-webkit-animation: slide-in-left 0.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1.4s both;
+		animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1.4s both;
+		bottom: 44vh;
+	}
+
+	#mission-statement{
+		-webkit-animation: slide-in-left 0.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1.6s both;
+		animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1.6s both;
+		bottom: 32vh;
+	}
+
+	#title{
+		position: absolute;
+		left: 3vw;
+	}
+	#NASS{
+		position: absolute;
+		font-size: 20vw;
+		letter-spacing: 8vw;
+		bottom: 2vw;
+	}
+
+	#title-title{
+		position: absolute;
+		bottom: 7.5vw;
+		left: -1vw;
+		font-size: 4.5vw;
+		white-space: nowrap;
+		font-family: "Trueno Light";
+	}
+
+	#title-logo{
+		position: absolute;
+		bottom: 0;
+		left: -2vw;
+		z-index: -1;
+		height: 100%;
+		width: 20vw;
+		padding-bottom: 37.5vw;
+	}
+
+	#title-bottom{
+		position: absolute;
+		height: 100%;
+		bottom: 0;
+		padding-bottom: 12vw;
+		left: 0vw;
+		z-index: -1;
+		width: 93vw;
+	}
+
+	#menu-side-1{
+		position: absolute;
+	}
+
+	#home-background{
+		position: absolute;
+		height: 100%;
+		bottom: 0;
+		padding-bottom: 154vw;
+		left: 20vw;
+		z-index: -1;
+		width: 45vw;
+	}
+}

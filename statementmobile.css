@@ -1,0 +1,91 @@
+footer{
+	display: none;
+}
+
+svg{
+	width: 100%;
+	height: auto;;
+}
+
+.hide {
+	display: none;
+}
+
+@media (min-aspect-ratio: 1/1) {
+	#mobile{
+		display: visible;
+	}	
+}
+
+@media (max-aspect-ratio: 1/1) {
+  #mobile{
+    width:100vw;
+  }
+  body{
+		background-color: black;
+	}
+	body *{
+		font-family: 'Trueno Regular';
+		font-weight: normal;
+		color: white;
+	}
+  #mission-statement{
+    position: absolute;
+    font-size: 5vw;
+    letter-spacing: 1vw;
+    top: 6vw;
+    left: 3vw;
+  }
+  #statement-top{
+    position:absolute;
+    width:93vw;
+    left: calc(50% - 46.5vw);
+    top: 13vw;
+  }
+  #motto{
+    position: absolute;
+    font-size: 5vw;
+    text-align: center;
+    letter-spacing: 1vw;
+    top: 23vw;
+    width: 90vw;
+    left: calc(50% - 45vw);
+    font-family: "Trueno UltraLight";
+  }
+  #statement-bottom{
+    position:absolute;
+    width:93vw;
+    left: calc(50% - 46.5vw);
+    top: 38vw;
+  }
+  #statement{
+    position: absolute;
+    font-size: 3vw;
+    letter-spacing: 1vw;
+    top: 52vw;
+    left: calc(50% - 45vw);
+    width: 90vw;
+  }
+  #logo{
+    position: absolute;
+    top: 132vw;
+    width: 25vw;
+    left: calc(50% - 15vw);
+  }
+  #background-container{
+    position: relative;
+    width:100vw;
+    height: 100vh;
+    display: flex;
+    flex-flow: column wrap;
+    overflow: hidden;
+  }
+  #background{
+    position: absolute;
+    bottom: -60vw;
+    width: 233vw;
+    left: 19vw;
+    z-index: -1;
+  }
+  
+}
